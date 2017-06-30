@@ -4,9 +4,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 def send_mail(to_addr, subject, text):
-    from_addr = "test@gmail.de"
-    google_username = "iotdashbutton77@gmail.com"
-    google_app_password = "hhzhackathon17"
+    from_addr = "INSERT EMAIL ADRESS HERE"
+    google_username = "INSERT GOOGLE MAIL ADRESS HERE"
+    google_app_password = "INSERT PASSWORT"
     message = MIMEText(text, 'plain', 'UTF-8')
     message['Subject'] = subject
     message['From'] = from_addr
